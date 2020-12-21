@@ -1,8 +1,11 @@
-/* @import '~normalize.css';
+@import '~normalize.css';
 @import 'roboto.css';
+$test : red;
+
 body{
     font-family: "Roboto" , sans-serif;
     background: lightblue;
+    // background: $test;
 }
 .container{
     padding: 2rem;
@@ -18,4 +21,4 @@ h1{
     width: 200px;
     height: 200px;
     margin: 0 auto;
-} */
+}
